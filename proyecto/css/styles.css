@@ -1,0 +1,48 @@
+.menu{
+margin: auto;
+display: flex;
+flex-direction: row;
+width: 99%;
+justify-content: flex-end ;
+padding-bottom: 2rem;
+}
+
+.menu2{
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between !important;
+  padding-bottom: 2rem;
+  }
+
+.botn{
+       border: none;
+        padding: 8px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        background-color: #0d6efd;
+        color: whitesmoke; 
+        border: 2px solid #0d6efd;
+        border-radius: 5px;
+      }
+      
+     
+      
+      .botn:hover {
+        background-color: gray;
+       
+      }
+      .calendar-day, .calendar-day-head{
+        border: 1px solid #ddd;
+        padding: 5px;
+    }
+    .calendar-day-head{
+        background: #ddd;
+    }
+    
